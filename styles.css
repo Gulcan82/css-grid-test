@@ -16,25 +16,27 @@
 
 .one {
     background-color: rgb(77, 133, 22);
-    grid-column: span 2;
-    order: 1;
+ 
 }
 
 .two {
     background-color: chocolate;
-    grid-column: span 2;
-    grid-row: span 2;
-    order: 3;
 
 }
 
 .three {
     background-color: rgb(13, 133, 133);
-    grid-row: span 3;
-    order: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .four {
     order: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 }
