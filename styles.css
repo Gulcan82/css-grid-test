@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+
+.item {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+.one {
+    background-color: rgb(77, 133, 22);
+    grid-column: span 2;
+    order: 1;
+}
+
+.two {
+    background-color: chocolate;
+    grid-column: span 2;
+    grid-row: span 2;
+    order: 3;
+
+}
+
+.three {
+    background-color: rgb(13, 133, 133);
+    grid-row: span 3;
+    order: 2;
+}
+
+.four {
+    order: 4;
+
+}
