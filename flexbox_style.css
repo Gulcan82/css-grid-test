@@ -1,0 +1,40 @@
+.body {
+    height: 100vh;
+}
+
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+
+.item {
+    padding: 30px;
+    font-size: 30px;
+
+}
+.red {
+    background-color: red;
+
+}
+
+.blue {
+    background-color: blue;
+
+}
+.green {
+    background-color: green;
+
+}
+.yellow {
+    background-color: yellow;
+
+}
